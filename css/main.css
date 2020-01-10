@@ -1,0 +1,41 @@
+/* */
+body {
+    background-color: #F5F5F5;
+}
+h1, h2 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+p, table {
+    font-family: Lato, Open Sans, sans-serif;
+}
+/* */
+.blockqute_block {
+    color: #2E555C;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.container_books {
+    text-align: center;
+}
+.container_badges {
+    text-align: center;
+}
+.btn-info {
+    background-color: #2E555C;
+    border: solid 1px #2E555C;
+}
+.btn-info:hover {
+    background-color: #f5f5f5;
+    color: #2E555C;
+}
+/* */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .title_slider {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .description_slider {
+        font-size: 14px;
+    }
+}
